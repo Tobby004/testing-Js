@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background: deepskyblue;
+}
+button {
+    background: #807680;
+    color: rgb(172, 172, 221);
+    padding: 11px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+button:active {
+    background: yellow;
+    color: blue;
+    transition: all 3s;
+}
